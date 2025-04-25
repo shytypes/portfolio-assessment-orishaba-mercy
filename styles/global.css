@@ -1,10 +1,10 @@
-/* remove default browser spacing*/
 * {
   margin: 0px;
   padding: 0px;
 }
+
 .main{
-  background-color: rgb(136, 114, 114);
+  background-color: rgb(255, 255, 255);
 }
 .Nav ul{
   display: flex;
@@ -27,22 +27,21 @@
   justify-content: space-between;
   text-align: center;
   padding: 80px;
-  color: aliceblue;
  
 }
 .Home h1{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   padding-right: 40%;
 }
 .Home h2{
-  font-size: 35px;
+  font-size: 15px;
   font-weight: 700px;
-  padding-top: 30px;
+  padding-top: 10px;
  
 }
 .Home p{
-  font-size: 25px;
+  font-size: 21px;
   text-align:justify;
  
 }
@@ -56,17 +55,25 @@
   padding-top: 20px;
 }
  
-.exp{
+.exp {
   display: flex;
   justify-content: space-between;
- 
+  border: 2px solid;
+  margin: 20px auto; /* Centers the box horizontally */
+  background: rgb(157, 197, 224);
+  max-width: 800px; /* Limits the width of the box */
+  width: 100%; /* Ensures it doesn't exceed the parent container */
+  padding: 20px; /* Adds space inside the box */
+  box-sizing: border-box; /* Includes padding in the width calculation */
 }
 .exp1{
-  padding-left: 200px;
+  padding-left: 100px;
+  font-size: 12px;
 }
 .exp2{
-  padding-right: 200px;
-  font-size: 20px;
+  padding-right: 100px;
+  font-size: 12px;
+  list-style: disc;
 }
 .hobbies{
   display: flex;
@@ -84,8 +91,5 @@
 }
  
  
-/*title text style*/
-/* the font-family 'JetBrains Mono', has been linked
-* and is available for your use
-* */
+
  
